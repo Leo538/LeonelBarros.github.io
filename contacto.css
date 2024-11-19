@@ -1,0 +1,61 @@
+#contacto {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#contacto h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #0073e6;
+}
+
+#contacto p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Contenedor de enlaces sociales */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Estilo para cada ícono social */
+.social-icon {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Colores específicos para cada red social */
+.whatsapp {
+    background-color: #25D366;
+}
+
+.github {
+    background-color: #333;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
+/* Hover effects */
+.social-icon:hover {
+    opacity: 0.8;
+}
