@@ -172,4 +172,24 @@ li {
     margin: 0;
     font-style: italic;
 }
+body {
+    margin: 0;
+    position: relative;
+    overflow: auto; /* Permite el desplazamiento vertical */
+}
 
+  #WebGL-output {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Envía el fondo detrás del contenido */
+    pointer-events: none; /* Evita bloquear clics y desplazamientos */
+}
+
+  
+  #Stats-output {
+    display: none; /* Oculta los controles de estadísticas */
+  }
+  
