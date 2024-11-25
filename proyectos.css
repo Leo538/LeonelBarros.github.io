@@ -1,0 +1,70 @@
+#proyectos {
+    padding: 2rem;
+    text-align: center;
+}
+
+#proyectos h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #0073e6;
+}
+
+/* Contenedor principal para los proyectos */
+.proyecto-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo para cada proyecto */
+.proyecto-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para la imagen del proyecto */
+.proyecto-imagen {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título de cada proyecto */
+.proyecto-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para la descripción */
+.proyecto-item p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Enlace del proyecto */
+.proyecto-link {
+    font-size: 1rem;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.proyecto-link:hover {
+    text-decoration: underline;
+}

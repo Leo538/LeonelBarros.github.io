@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Incluye otros scripts necesarios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js"></script>
+    <!-- Tu script personalizado -->
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" onclick="loadContent('index.html')">Inicio</a></li>
+            <li><a href="#" onclick="loadContent('sobre-mi.html')">Sobre Mí</a></li>
+            <li><a href="#" onclick="loadContent('habilidades.html')">Habilidades</a></li>
+            <li><a href="#" onclick="loadContent('proyectos.html')">Proyectos</a></li>
+            <li><a href="#" onclick="loadContent('contacto.html')">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal que cambia dinámicamente -->
+    <div id="main-content">
+        <header class="hero" id="inicio">
+            <h1>¡Hola! Bienvenido a Mi Página</h1>
+            <p>Estudiante de Ingeniería en Software</p>
+        </header>
+        <!-- Section Previews -->
+        <section class="section-previews">
+            <div class="preview-card" onclick="loadContent('sobre-mi.html')">
+                <h2>Sobre Mí</h2>
+                <p>Conoce más acerca de mi formación, experiencia y metas.</p>
+            </div>
+            <div class="preview-card" onclick="loadContent('habilidades.html')">
+                <h2>Habilidades</h2>
+                <p>Descubre las habilidades que he desarrollado en mi carrera.</p>
+            </div>
+            <div class="preview-card" onclick="loadContent('proyectos.html')">
+                <h2>Proyectos</h2>
+                <p>Explora algunos de los proyectos en los que he trabajado.</p>
+            </div>
+            <div class="preview-card" onclick="loadContent('contacto.html')">
+                <h2>Contacto</h2>
+                <p>Ponte en contacto conmigo para oportunidades de colaboración.</p>
+            </div>
+        </section>
+    </div>
+       <!-- Footer placeholder where footer.html will load -->
+       <div id="footer-placeholder"></div>
+
+       <!-- Conexión al archivo JavaScript -->
+       <script src="script.js"></script>
+       <div id="Stats-output"></div>
+       <div id="WebGL-output"></div>
+
+</body>
+</html>

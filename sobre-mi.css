@@ -1,0 +1,31 @@
+/* Estilos para el encabezado (imagen y texto) */
+.about-header {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen y el texto desde la parte superior */
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.profile-pic {
+    width: 130px; /* Tamaño ligeramente más grande */
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.personal-info {
+    max-width: 600px; /* Ancho un poco mayor para que el texto se ajuste mejor */
+}
+
+.personal-info h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+.personal-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,195 @@
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Estilo del navbar */
+.navbar {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f0f0f0;
+}
+
+/* Sección de bienvenida */
+.hero {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-top: 60px; /* Espacio para el navbar */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+/* Estilos para el encabezado (imagen y texto) */
+.about-header {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen y el texto desde la parte superior */
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.profile-pic {
+    width: 130px; /* Tamaño ligeramente más grande */
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.personal-info {
+    max-width: 600px; /* Ancho un poco mayor para que el texto se ajuste mejor */
+}
+
+.personal-info h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+.personal-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
+/* Centering and Styling for Section Previews */
+.section-previews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 800px; /* Limits the width to make it more centered */
+    margin: 40px auto; /* Centers the section horizontally */
+    padding: 20px;
+    text-align: center;
+}
+
+.preview-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.preview-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.preview-card h2 {
+    color: #333;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.preview-card p {
+    color: #666;
+    font-size: 1em;
+    margin: 0;
+}
+/* Footer Styling */
+.footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-style: italic;
+}
+body {
+    margin: 0;
+    position: relative;
+    overflow: auto; /* Permite el desplazamiento vertical */
+}
+
+  #WebGL-output {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Envía el fondo detrás del contenido */
+    pointer-events: none; /* Evita bloquear clics y desplazamientos */
+}
+
+  
+  #Stats-output {
+    display: none; /* Oculta los controles de estadísticas */
+  }
+  

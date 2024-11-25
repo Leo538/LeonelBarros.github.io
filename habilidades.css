@@ -1,0 +1,57 @@
+#habilidades {
+    padding: 2rem;
+    text-align: center;
+}
+
+#habilidades h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #0073e6;
+}
+
+/* Contenedor principal para las habilidades */
+.habilidad-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Estilo para cada habilidad */
+.habilidad-item {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco transparente */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Estilo para los iconos */
+.habilidad-icon {
+    width: 70px; /* Aumenta el tamaño de la imagen */
+    height: 70px;
+}
+
+/* Estilos para el texto de cada habilidad */
+.habilidad-text {
+    text-align: left;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.habilidad-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0073e6;
+    margin-bottom: 0.3rem;
+}
+
+.habilidad-text p {
+    margin: 0.3rem 0; /* Espacio entre título y descripción */
+}
